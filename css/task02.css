@@ -1,0 +1,52 @@
+.task02-field {
+    height: 150px;
+    overflow: auto;
+}
+
+#pageScroller {
+    display: inline-block;
+    width: 10px;
+    height: 2000px;
+    background-image: url('../images/field.png');
+}
+
+#field {
+    background-image: url('../images/field.png');
+    --height: 300px;
+    height: 50%;
+    --width: 500px;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 5px solid black;
+}
+
+#ball {
+    background-image: url('../images/ball.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transition-property: left, top;
+    transition-duration: 3s, 3s;
+}
+
+#ball.aut {
+    border: 1px solid red;
+}
+
+#warning {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}

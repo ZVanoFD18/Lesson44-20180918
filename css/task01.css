@@ -1,0 +1,32 @@
+#menu1 {
+    left: 0;
+}
+#menu2 {
+    right: 0;
+}
+.menu-root{
+    position: absolute;
+}
+.menu{
+    border: 1px solid red;
+    display: inline-block;
+    --position: absolute;
+    height: 1.1rem;
+}
+.menu:hover{
+    background-color: red;
+}
+.menu-item.menu:hover{
+    background-color: brown;
+}
+.menu-item {
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 1.1rem;
+    position: relative;
+    margin-left: 15px;
+}
+
+.menu-item:hover{
+    background-color: green;
+}

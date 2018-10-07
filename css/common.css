@@ -1,0 +1,8 @@
+.task-description{
+	height: 150px;
+	overflow: auto;
+}
+.hidden {
+	visibility: hidden;
+	display: none;
+}
